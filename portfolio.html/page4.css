@@ -1,0 +1,59 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Set a background color for the body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    padding: 20px;
+}
+
+/* Style the header */
+header {
+    text-align: center;
+    background-color: #07774c;
+    color: #fff;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 36px;
+    text-align: center;
+}
+header h2 {
+    font-size: 20px;
+    text-align: center;
+}
+/* Style the main content section */
+section {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the contact details */
+address p {
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+address p strong {
+    font-weight: bold;
+}
+
+/* Style the website link */
+address a {
+    color: #0078d4;
+    text-decoration: none;
+}
+
+address a:hover {
+    text-decoration: underline;
+}
+
+/* Add more styles as needed */
